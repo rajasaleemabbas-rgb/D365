@@ -32,7 +32,7 @@ const industries = [
   { label: "Healthcare", href: "/industries#healthcare" },
   { label: "Hospitality", href: "/industries#hospitality" },
   { label: "Financial Services", href: "/industries#finance" },
-  { label: "Distribution", href: "/industries#distribution" },
+  { label: "Construction", href: "/industries#construction" },
 ];
 
 const certifications = [
@@ -66,7 +66,7 @@ export default function Footer() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
-                href="tel:+18002256283"
+                href="tel:+16093757605"
                 className="btn-outline-white text-sm"
               >
                 <Phone className="w-4 h-4" />
@@ -100,22 +100,22 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3 mb-6">
               <a
-                href="mailto:info@b2cloud.com"
+                href="mailto:admin@d2cloud.org"
                 className="flex items-center gap-2.5 text-white/70 hover:text-white text-sm transition-colors"
               >
                 <Mail className="w-4 h-4 text-cyan shrink-0" />
-                info@b2cloud.com
+                admin@d2cloud.org
               </a>
               <a
-                href="tel:+18002256283"
+                href="tel:+16093757605"
                 className="flex items-center gap-2.5 text-white/70 hover:text-white text-sm transition-colors"
               >
                 <Phone className="w-4 h-4 text-cyan shrink-0" />
-                +1 (800) B2CLOUD
+                +1 (609) 375-7605
               </a>
               <div className="flex items-start gap-2.5 text-white/70 text-sm">
                 <MapPin className="w-4 h-4 text-cyan shrink-0 mt-0.5" />
-                <span>New York, NY | Dubai, UAE | London, UK</span>
+                <span>Princeton, NJ | Dubai, UAE | London, UK</span>
               </div>
             </div>
 

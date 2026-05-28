@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Factory, Hotel, Stethoscope, Briefcase, Truck, ArrowRight } from "lucide-react";
+import { Factory, Hotel, Stethoscope, Briefcase, HardHat, ArrowRight } from "lucide-react";
 
 const industries = [
   {
@@ -9,7 +9,7 @@ const industries = [
     title: "Manufacturing",
     desc: "ERP-driven production planning, inventory management, and supply chain visibility for discrete and process manufacturers.",
     tags: ["Dynamics 365 F&O", "MRP Integration", "IoT Monitoring"],
-    clients: "80+ clients",
+    clients: "2 clients",
     href: "/industries#manufacturing",
     gradient: "from-blue-600 to-blue-800",
   },
@@ -18,7 +18,7 @@ const industries = [
     title: "Healthcare",
     desc: "Revenue cycle management, HIPAA-compliant workflows, and EHR integrations that maximize reimbursements.",
     tags: ["Medical Billing", "RCM", "HIPAA Compliance"],
-    clients: "120+ clients",
+    clients: "1 client",
     href: "/industries#healthcare",
     gradient: "from-rose-500 to-pink-700",
   },
@@ -27,7 +27,7 @@ const industries = [
     title: "Hospitality",
     desc: "Streamlined property management, F&B cost control, and guest experience automation for hotels and restaurants.",
     tags: ["PMS Integration", "F&B Analytics", "Cost Control"],
-    clients: "60+ clients",
+    clients: "2 clients",
     href: "/industries#hospitality",
     gradient: "from-amber-500 to-orange-600",
   },
@@ -36,17 +36,17 @@ const industries = [
     title: "Financial Services",
     desc: "Regulatory compliance automation, financial reporting, and multi-entity consolidation with real-time dashboards.",
     tags: ["Compliance Automation", "Power BI", "Multi-entity"],
-    clients: "45+ clients",
+    clients: "8 clients",
     href: "/industries#finance",
     gradient: "from-emerald-500 to-teal-700",
   },
   {
-    icon: Truck,
-    title: "Distribution & Logistics",
-    desc: "End-to-end supply chain management, warehouse automation, and last-mile delivery tracking integration.",
-    tags: ["WMS Integration", "Route Optimization", "3PL"],
-    clients: "55+ clients",
-    href: "/industries#distribution",
+    icon: HardHat,
+    title: "Construction",
+    desc: "Project cost management, subcontractor billing, and job costing solutions for contractors and construction firms.",
+    tags: ["Job Costing", "Project Management", "Subcontractor Billing"],
+    clients: "1 client",
+    href: "/industries#construction",
     gradient: "from-violet-500 to-purple-700",
   },
 ];

@@ -17,15 +17,15 @@ const partners = [
 const trustMetrics = [
   {
     icon: Award,
-    label: "Industry Awards",
-    value: "12",
-    desc: "Top ERP Consulting Firm 2024",
+    label: "Years in Business",
+    value: "15+",
+    desc: "Serving enterprises since 2009",
   },
   {
     icon: Star,
     label: "Client Satisfaction",
     value: "4.9/5",
-    desc: "Average rating across 500+ clients",
+    desc: "Average rating across 20+ clients",
   },
   {
     icon: Shield,
@@ -36,7 +36,7 @@ const trustMetrics = [
   {
     icon: CheckCircle2,
     label: "Projects Delivered",
-    value: "1,200+",
+    value: "20+",
     desc: "On-time, on-budget implementations",
   },
 ];

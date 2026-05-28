@@ -90,10 +90,13 @@ export default function Navigation() {
     return pathname.startsWith(href);
   };
 
+  const isHomePage = pathname === "/";
+  const solidNav = scrolled || !isHomePage;
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        solidNav
           ? "bg-white/95 backdrop-blur-xl shadow-[0_2px_24px_rgba(0,0,0,0.08)] border-b border-slate-100"
           : "bg-transparent"
       }`}
@@ -110,14 +113,14 @@ export default function Navigation() {
             <div className="flex flex-col leading-none">
               <span
                 className={`font-bold text-lg tracking-tight transition-colors duration-300 ${
-                  scrolled ? "text-navy" : "text-white"
+                  solidNav ? "text-navy" : "text-white"
                 }`}
               >
                 B2Cloud
               </span>
               <span
                 className={`text-xs font-medium transition-colors duration-300 ${
-                  scrolled ? "text-slate-mid" : "text-white/70"
+                  solidNav ? "text-slate-mid" : "text-white/70"
                 }`}
               >
                 International
@@ -137,7 +140,7 @@ export default function Navigation() {
                       )
                     }
                     className={`flex items-center gap-1 px-3.5 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
-                      scrolled
+                      solidNav
                         ? "text-slate-700 hover:text-blue-primary hover:bg-blue-light/40"
                         : "text-white/90 hover:text-white hover:bg-white/10"
                     }`}
@@ -184,10 +187,10 @@ export default function Navigation() {
                   href={item.href}
                   className={`px-3.5 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
                     isActive(item.href)
-                      ? scrolled
+                      ? solidNav
                         ? "text-blue-primary bg-blue-light/40"
                         : "text-white bg-white/15"
-                      : scrolled
+                      : solidNav
                       ? "text-slate-700 hover:text-blue-primary hover:bg-blue-light/40"
                       : "text-white/90 hover:text-white hover:bg-white/10"
                   }`}
@@ -199,13 +202,13 @@ export default function Navigation() {
 
             <div className="ml-3 flex items-center gap-2">
               <Link
-                href="tel:+1-800-B2CLOUD"
+                href="tel:+16093757605"
                 className={`flex items-center gap-1.5 text-sm font-medium transition-colors ${
-                  scrolled ? "text-slate-600 hover:text-blue-primary" : "text-white/80 hover:text-white"
+                  solidNav ? "text-slate-600 hover:text-blue-primary" : "text-white/80 hover:text-white"
                 }`}
               >
                 <Phone className="w-3.5 h-3.5" />
-                <span className="hidden xl:inline">+1 (800) B2CLOUD</span>
+                <span className="hidden xl:inline">+1 (609) 375-7605</span>
               </Link>
               <Link
                 href="/contact"
@@ -221,7 +224,7 @@ export default function Navigation() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className={`lg:hidden p-2 rounded-lg transition-colors ${
-              scrolled
+              solidNav
                 ? "text-slate-700 hover:bg-slate-100"
                 : "text-white hover:bg-white/10"
             }`}

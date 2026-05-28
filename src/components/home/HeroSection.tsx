@@ -5,10 +5,10 @@ import Link from "next/link";
 import { ArrowRight, Play, CheckCircle2, TrendingUp, Users, Globe } from "lucide-react";
 
 const stats = [
-  { value: "500+", label: "Enterprise Clients", icon: Users },
+  { value: "20+", label: "Enterprise Clients", icon: Users },
   { value: "98%", label: "Client Retention", icon: TrendingUp },
   { value: "15+", label: "Years Experience", icon: Globe },
-  { value: "40+", label: "Industry Experts", icon: CheckCircle2 },
+  { value: "10+", label: "Industry Experts", icon: CheckCircle2 },
 ];
 
 const trustedBy = [
@@ -16,7 +16,7 @@ const trustedBy = [
 ];
 
 const highlights = [
-  "Microsoft Dynamics 365 Gold Partner",
+  "Microsoft Dynamics 365 Certified Experts",
   "AI-powered workflow automation",
   "SLA-guaranteed managed services",
 ];
@@ -48,7 +48,7 @@ export default function HeroSection() {
               {/* Badge */}
               <div className="badge-pill badge-white mb-6 inline-flex">
                 <span className="w-2 h-2 rounded-full bg-cyan animate-pulse" />
-                Microsoft Dynamics 365 Gold Partner
+                Microsoft Dynamics 365 Certified Experts
               </div>
 
               {/* Headline */}
@@ -133,7 +133,7 @@ export default function HeroSection() {
                   </div>
                   <div>
                     <div className="text-white text-xs font-semibold">Active Implementations</div>
-                    <div className="text-white/50 text-xs">12 enterprise projects in progress</div>
+                    <div className="text-white/50 text-xs">3 projects in progress</div>
                   </div>
                   <div className="ml-auto text-emerald-400 font-bold text-sm">Live</div>
                 </div>

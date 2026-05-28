@@ -14,8 +14,8 @@ const ctaOptions = [
     icon: Phone,
     title: "Call Us Directly",
     desc: "Speak to an expert immediately — no wait times.",
-    action: "+1 (800) B2CLOUD",
-    href: "tel:+18002256283",
+    action: "+1 (609) 375-7605",
+    href: "tel:+16093757605",
     primary: false,
   },
   {
@@ -23,7 +23,7 @@ const ctaOptions = [
     title: "Send Us a Brief",
     desc: "Share your project details and get a proposal within 24 hours.",
     action: "Email Us",
-    href: "mailto:info@b2cloud.com",
+    href: "mailto:admin@d2cloud.org",
     primary: false,
   },
 ];
@@ -42,7 +42,7 @@ export default function CTASection() {
             <span className="gradient-text">Your Business?</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Join 500+ enterprises that trust B2Cloud International to deliver
+            Join 20+ enterprises that trust B2Cloud International to deliver
             technology-driven transformation with measurable results.
           </p>
         </div>

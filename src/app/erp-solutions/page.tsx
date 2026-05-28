@@ -33,7 +33,7 @@ const solutions = [
       "Real-time Power BI dashboards",
       "AI-powered demand forecasting",
     ],
-    badge: "Gold Partner",
+    badge: "Certified Experts",
     badgeColor: "bg-amber-50 text-amber-700 border-amber-200",
   },
   {

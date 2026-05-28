@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "About B2Cloud International | Enterprise Technology Experts",
   description:
-    "15+ years of enterprise ERP, AI automation, and managed IT services. Microsoft Gold Partner serving 500+ clients globally.",
+    "15+ years of enterprise ERP, AI automation, and managed IT services. Microsoft Dynamics 365 Certified Experts serving 20+ clients globally.",
 };
 
 const values = [
@@ -43,8 +43,8 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2009", event: "Founded in New York with focus on ERP consulting" },
-  { year: "2012", event: "Achieved Microsoft Dynamics Gold Partner status" },
+  { year: "2009", event: "Founded in Princeton, New Jersey with focus on ERP consulting" },
+  { year: "2012", event: "Achieved Microsoft Dynamics 365 Certified Experts status" },
   { year: "2015", event: "Launched Managed IT Services practice" },
   { year: "2018", event: "Opened Dubai office; launched Healthcare division" },
   { year: "2020", event: "Launched AI & Digital Transformation practice" },
@@ -111,9 +111,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { value: "500+", label: "Enterprise Clients", icon: Users },
+              { value: "20+", label: "Enterprise Clients", icon: Users },
               { value: "15+", label: "Years in Business", icon: Award },
-              { value: "40+", label: "Practice Experts", icon: Target },
+              { value: "10+", label: "Practice Experts", icon: Target },
               { value: "3", label: "Global Offices", icon: Globe },
             ].map((s) => (
               <div key={s.label} className="text-center">
@@ -270,7 +270,7 @@ export default function AboutPage() {
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Microsoft Dynamics 365 Gold Partner",
+              "Microsoft Dynamics 365 Certified Experts",
               "Salesforce ISV Certified",
               "QuickBooks Elite ProAdvisor",
               "ISO 9001:2015",

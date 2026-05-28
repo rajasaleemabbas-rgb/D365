@@ -6,14 +6,14 @@ import {
   Stethoscope,
   Hotel,
   Briefcase,
-  Truck,
+  HardHat,
   CheckCircle2,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Industries We Serve | Manufacturing, Healthcare, Hospitality | B2Cloud",
   description:
-    "B2Cloud delivers industry-specific ERP, AI, and managed IT solutions for manufacturing, healthcare, hospitality, financial services, and distribution.",
+    "B2Cloud delivers industry-specific ERP, AI, and managed IT solutions for manufacturing, healthcare, hospitality, financial services, and construction.",
 };
 
 const industries = [
@@ -126,28 +126,28 @@ const industries = [
     gradient: "from-emerald-500 to-teal-700",
   },
   {
-    id: "distribution",
-    icon: Truck,
-    title: "Distribution & Logistics",
-    subtitle: "End-to-end supply chain clarity",
-    desc: "Warehouse management, route optimization, and supply chain visibility for distributors and 3PLs managing complex operations.",
+    id: "construction",
+    icon: HardHat,
+    title: "Construction",
+    subtitle: "Build smarter, profit more",
+    desc: "Project cost management, subcontractor billing, and job costing solutions for general contractors, specialty trades, and construction firms.",
     challenges: [
-      "Manual warehouse operations",
-      "Inventory accuracy issues",
-      "No real-time order tracking",
-      "Carrier integration gaps",
+      "Manual job costing and budget tracking",
+      "Subcontractor invoice management",
+      "No real-time project profitability view",
+      "Disconnected field and back-office systems",
     ],
     solutions: [
-      "WMS/ERP integration",
-      "Automated order management",
-      "Route optimization AI",
-      "Carrier & 3PL integration",
-      "Real-time inventory dashboards",
+      "Job costing & project accounting setup",
+      "Subcontractor billing automation",
+      "ERP integration with field management tools",
+      "Real-time project dashboards",
+      "Progress billing & retention tracking",
     ],
     results: [
-      { stat: "30%", label: "Warehouse productivity gain" },
-      { stat: "99.5%", label: "Inventory accuracy" },
-      { stat: "20%", label: "Delivery cost reduction" },
+      { stat: "35%", label: "Reduction in cost overruns" },
+      { stat: "50%", label: "Faster project billing cycle" },
+      { stat: "100%", label: "Real-time job profitability" },
     ],
     color: "violet",
     gradient: "from-violet-500 to-purple-700",

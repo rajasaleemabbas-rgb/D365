@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 const offices = [
-  { city: "New York", country: "USA", address: "350 Fifth Avenue, Suite 4200", phone: "+1 (212) 555-0180", timezone: "EST (UTC-5)" },
+  { city: "Princeton", country: "USA", address: "1 Colebrook Ct, Princeton, New Jersey 08540", phone: "+1 (609) 375-7605", timezone: "EST (UTC-5)" },
   { city: "Dubai", country: "UAE", address: "DIFC Gate Avenue, Level 14", phone: "+971 4 555 0190", timezone: "GST (UTC+4)" },
   { city: "London", country: "UK", address: "30 St Mary Axe, EC3A 8BF", phone: "+44 20 7946 0180", timezone: "GMT (UTC+0)" },
 ];
@@ -109,13 +109,13 @@ export default function ContactPage() {
               <div className="bg-white rounded-2xl border border-slate-200 p-6">
                 <h3 className="font-bold text-slate-dark mb-4">Direct Contact</h3>
                 <div className="space-y-3">
-                  <a href="mailto:info@b2cloud.com" className="flex items-center gap-3 text-slate hover:text-blue-primary transition-colors text-sm">
+                  <a href="mailto:admin@d2cloud.org" className="flex items-center gap-3 text-slate hover:text-blue-primary transition-colors text-sm">
                     <Mail className="w-4 h-4 text-slate-mid" />
-                    info@b2cloud.com
+                    admin@d2cloud.org
                   </a>
-                  <a href="tel:+18002256283" className="flex items-center gap-3 text-slate hover:text-blue-primary transition-colors text-sm">
+                  <a href="tel:+16093757605" className="flex items-center gap-3 text-slate hover:text-blue-primary transition-colors text-sm">
                     <Phone className="w-4 h-4 text-slate-mid" />
-                    +1 (800) B2CLOUD
+                    +1 (609) 375-7605
                   </a>
                   <a href="#" className="flex items-center gap-3 text-slate hover:text-blue-primary transition-colors text-sm">
                     <Calendar className="w-4 h-4 text-slate-mid" />
